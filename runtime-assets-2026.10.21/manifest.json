@@ -1,0 +1,199 @@
+{
+  "version": "runtime-assets-2026.10.21",
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "assets": [
+    {
+      "file": "node-v24.21.0-win-x64.zip",
+      "component": "node",
+      "version": "24.21.0",
+      "platform": "win-x64",
+      "sourceUrl": "https://nodejs.org/dist/v24.21.0/node-v24.21.0-win-x64.zip",
+      "sha256": "158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e541",
+      "sizeBytes": 37618919,
+      "upstreamChecksumRef": "https://nodejs.org/dist/v24.21.0/SHASUMS256.txt (GPG signature valid, key 5BE8A3F6C8A5C01D106C0AD820B1A390B168D356)",
+      "license": "MIT, with bundled third-party notices"
+    },
+    {
+      "file": "yt-dlp_linux",
+      "component": "yt-dlp",
+      "version": "2026.08.19",
+      "platform": "linux-x64",
+      "sourceUrl": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp_linux",
+      "sha256": "58162f9bfdc27458ea47bfcb311cf47028f17d8154a8bf7d689861d46399230a",
+      "sizeBytes": 40446224,
+      "upstreamChecksumRef": "SHA2-256SUMS of release 2026.08.19 (GPG signature valid, key AC0CBBE6848D6A873464AF4E57CF65933B5A7581)",
+      "license": "Unlicense; bundled components under their own licenses"
+    },
+    {
+      "file": "yt-dlp.exe",
+      "component": "yt-dlp",
+      "version": "2026.08.19",
+      "platform": "win-x64",
+      "sourceUrl": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.08.19/yt-dlp.exe",
+      "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "sizeBytes": 17840399,
+      "upstreamChecksumRef": "SHA2-256SUMS of release 2026.08.19 (GPG signature valid, key AC0CBBE6848D6A873464AF4E57CF65933B5A7581)",
+      "license": "Unlicense; bundled components under their own licenses"
+    },
+    {
+      "file": "deno-x86_64-unknown-linux-gnu.zip",
+      "component": "deno",
+      "version": "2.9.7",
+      "platform": "linux-x64",
+      "sourceUrl": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-unknown-linux-gnu.zip",
+      "sha256": "c6527f24f4b16031d3ae4fa9f658d5f11534c8d84ce7dc8502420280919c3490",
+      "sizeBytes": 41596794,
+      "upstreamChecksumRef": "deno-x86_64-unknown-linux-gnu.zip.sha256sum of release v2.9.7",
+      "license": "MIT"
+    },
+    {
+      "file": "deno-x86_64-pc-windows-msvc.zip",
+      "component": "deno",
+      "version": "2.9.7",
+      "platform": "win-x64",
+      "sourceUrl": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-pc-windows-msvc.zip",
+      "sha256": "a0c3101b4158d1dfb7d6a78a7bf0f3de80c96bb423c152beec8beb22786f2238",
+      "sizeBytes": 42630221,
+      "upstreamChecksumRef": "deno-x86_64-pc-windows-msvc.zip.sha256sum of release v2.9.7",
+      "license": "MIT"
+    },
+    {
+      "file": "ffmpeg-n9.0.2-3-ga5923073bf-linux64-gpl-9.0.tar.xz",
+      "component": "ffmpeg",
+      "version": "n9.0.2-3-ga5923073bf",
+      "platform": "linux-x64",
+      "sourceUrl": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-09-22-13-18/ffmpeg-n9.0.2-3-ga5923073bf-linux64-gpl-9.0.tar.xz",
+      "sha256": "6cb8d11e4ce7f067079a6866b94145918d1c121604d578236015181f9677d5fd",
+      "sizeBytes": 150154132,
+      "upstreamChecksumRef": "GitHub release asset digest of autobuild-2026-09-22-13-18",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "file": "ffmpeg-n9.0.2-3-ga5923073bf-win64-gpl-9.0.zip",
+      "component": "ffmpeg",
+      "version": "n9.0.2-3-ga5923073bf",
+      "platform": "win-x64",
+      "sourceUrl": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-09-22-13-18/ffmpeg-n9.0.2-3-ga5923073bf-win64-gpl-9.0.zip",
+      "sha256": "649f40e14a3fadb377de32d88fa1106d33cc0b85d53ba8aa0c1b8d87e1bfbc35",
+      "sizeBytes": 192925999,
+      "upstreamChecksumRef": "GitHub release asset digest of autobuild-2026-09-22-13-18",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "file": "18_NotoSansSC.zip",
+      "component": "noto-sans-sc",
+      "version": "Sans2.004",
+      "platform": "any",
+      "sourceUrl": "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/18_NotoSansSC.zip",
+      "sha256": "4d107c09ada479d3e48b6e78c83835773cbd9214bf6e12cdb7b60f8e068292ec",
+      "sizeBytes": 50077940,
+      "upstreamChecksumRef": "none published upstream; sha256 computed at download (2026-09-29)",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "OFL.txt",
+      "component": "noto-sans-sc",
+      "version": "Sans2.004",
+      "platform": "any",
+      "sourceUrl": "LICENSE inside 18_NotoSansSC.zip",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "sizeBytes": 4301,
+      "upstreamChecksumRef": "extracted unmodified",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "ffmpeg-source-a5923073bf.tar.xz",
+      "component": "ffmpeg-source",
+      "version": "a5923073bfd8f25b7300d93af3f8e690174ebd30",
+      "platform": "source",
+      "sourceUrl": "https://api.github.com/repos/FFmpeg/FFmpeg/tarball/a5923073bfd8f25b7300d93af3f8e690174ebd30",
+      "sha256": "3f3cde12b49531f3170ecd611732ff43971dc6fb15c2739a2375d710dd19fd23",
+      "sizeBytes": 11453128,
+      "upstreamChecksumRef": "repacked as tar.xz from the GitHub tarball of the exact commit; identity is the commit id",
+      "license": "GPL-3.0-or-later (as configured for the shipped builds)"
+    },
+    {
+      "file": "ffmpeg-build-info-3e6685ed.tar.xz",
+      "component": "ffmpeg-build-info",
+      "version": "3e6685eda92f9288c15ac320139622dcedca09a4",
+      "platform": "source",
+      "sourceUrl": "https://api.github.com/repos/BtbN/FFmpeg-Builds/tarball/3e6685eda92f9288c15ac320139622dcedca09a4",
+      "sha256": "98d7bbaa858259dba472658ceb0ec5dc7a0f9b1f7aaf3832dfae1a3d648a8266",
+      "sizeBytes": 52128,
+      "upstreamChecksumRef": "full BtbN snapshot at the build commit plus -buildconf / -L output of both shipped binaries",
+      "license": "MIT (BtbN scripts)"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "ffmpeg-dependencies.json",
+      "component": "ffmpeg-dependencies",
+      "platform": "metadata",
+      "version": "3e6685eda92f9288c15ac320139622dcedca09a4",
+      "sha256": "05bc228a05228cbc1172cada9722e54a9c496980801e59889d1d49da176dabcb",
+      "sizeBytes": 64108,
+      "description": "Every build dependency of the FFmpeg static builds with its repository, pinned commit, per-target enablement and configure flags, derived from the build scripts at the build commit",
+      "license": null
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "component": "third-party-notices",
+      "platform": "metadata",
+      "version": "runtime-assets-2026.10.21",
+      "sha256": "62b758c001365050e30eeb179132a52657ac08f324f98c9aa64ab177b16ad937",
+      "sizeBytes": 3294,
+      "description": "Index of the third-party components in this release, their licenses, and where their license texts and the FFmpeg Complete Corresponding Source are",
+      "license": null
+    },
+    {
+      "file": "runtime-licenses.zip",
+      "component": "runtime-licenses",
+      "platform": "any",
+      "version": "runtime-assets-2026.10.21",
+      "sha256": "22d28f5babe9d36d5fb6cf494e921a7d156797165e4bbc95f9a5e3440f93b1a0",
+      "sizeBytes": 102798,
+      "description": "Unmodified license and notice texts of the runtime components, one entry <component>/<file> per text",
+      "license": null
+    },
+    {
+      "file": "ffmpeg-ccs.tar.xz",
+      "component": "ffmpeg-ccs",
+      "platform": "win-x64",
+      "version": "n9.0.2-3-ga5923073bf",
+      "sha256": "f3635d74ac938fff6180750efc1a874c49f3afb5bcf78f4d70e31967a3f315c6",
+      "sizeBytes": 900255012,
+      "description": "Complete Corresponding Source of the Windows x64 FFmpeg build: sources of FFmpeg and of every component built into it, the BtbN build scripts with the toolchain image definitions and patches of every platform, and the build configuration",
+      "license": null
+    },
+    {
+      "file": "third-party-licenses.tar.xz",
+      "component": "third-party-licenses",
+      "platform": "win-x64",
+      "version": "n9.0.2-3-ga5923073bf",
+      "sha256": "4e8170908de0730ca52c42768a284812924340689ef6d928f2892d2e680a1d8b",
+      "sizeBytes": 203588,
+      "description": "License texts of every component of the Windows x64 FFmpeg build and of the runtime components",
+      "license": null
+    },
+    {
+      "file": "ffmpeg-ccs-linux64.tar.xz",
+      "component": "ffmpeg-ccs",
+      "platform": "linux-x64",
+      "version": "n9.0.2-3-ga5923073bf",
+      "sha256": "baddcbe3e5b9e221fbf3767eaed6e82ff7464575468d85f080b5f3041d15206f",
+      "sizeBytes": 5200424,
+      "description": "Supplement to ffmpeg-ccs.tar.xz: sources of the 21 components only the Linux x64 build uses, its build configuration, a source snapshot of the Implib.so stub generator, and COVERAGE.tsv mapping every Linux build stage to its source",
+      "license": null
+    },
+    {
+      "file": "third-party-licenses-linux64.tar.xz",
+      "component": "third-party-licenses",
+      "platform": "linux-x64",
+      "version": "n9.0.2-3-ga5923073bf",
+      "sha256": "ff2a50e53162b2dfafbe4b60537d99bb992dc1f7ea221dcd96f24ab58081c631",
+      "sizeBytes": 34816,
+      "description": "Supplement to third-party-licenses.tar.xz: license texts of the components only the Linux x64 FFmpeg build uses",
+      "license": null
+    }
+  ]
+}
