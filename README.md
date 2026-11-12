@@ -4,7 +4,7 @@
 
 ## 当前版本
 
-[`runtime-assets-2026.10.21`](https://github.com/lifefindsitsway/amber-runtime-assets/releases/tag/runtime-assets-2026.10.21)
+[`runtime-assets-2026.11.11`](https://github.com/lifefindsitsway/amber-runtime-assets/releases/tag/runtime-assets-2026.11.11)
 
 | 组件 | 版本 | 平台 | 许可证 |
 |---|---|---|---|
@@ -13,25 +13,27 @@
 | Deno | 2.9.7 | Linux x64、Windows x64 | MIT |
 | FFmpeg（BtbN GPL 静态构建） | n9.0.2-3-ga5923073bf | Linux x64、Windows x64 | GPL-3.0-or-later（`ffmpeg -L`） |
 | Noto Sans SC | Sans2.004 | 通用 | OFL-1.1 |
+| Noto Serif SC | Serif2.003 | 通用 | OFL-1.1 |
+| 霞鹜文楷轻便版（LXGW WenKai Lite） | v1.530 | 通用 | OFL-1.1（含保留字体名称） |
 
-第三方二进制与字体是上游发布的原样文件；FFmpeg 源码归档是对应 commit 的重新打包；清单、声明、许可证包与完整对应源码包由本项目整理生成。每个文件的上游地址、版本、大小与 SHA-256 见本仓库 [`runtime-assets-2026.10.21/manifest.json`](runtime-assets-2026.10.21/manifest.json)。
+第三方二进制与字体是上游发布的原样文件；FFmpeg 源码归档是对应 commit 的重新打包；清单、声明、许可证包与完整对应源码包由本项目整理生成。每个文件的上游地址、版本、大小与 SHA-256 见本仓库 [`runtime-assets-2026.11.11/manifest.json`](runtime-assets-2026.11.11/manifest.json)。
 
 ## 下载与校验
 
 ```sh
 mkdir runtime-assets && cd runtime-assets
-gh release download runtime-assets-2026.10.21 --repo lifefindsitsway/amber-runtime-assets
-sha256sum SHA256SUMS   # 应为 44de90ff887b9be736a0111a6a7f7c996939e3801dd383264855ce89cbf01214
+gh release download runtime-assets-2026.11.11 --repo lifefindsitsway/amber-runtime-assets
+sha256sum SHA256SUMS   # 应为 abef5352d1b02f44f1ac493702d573d96db2e74c1c26ac087548c16409fc73b4
 sha256sum -c SHA256SUMS
 ```
 
 不登录 GitHub 也可以直接下载单个文件：
 
 ```text
-https://github.com/lifefindsitsway/amber-runtime-assets/releases/download/runtime-assets-2026.10.21/<文件名>
+https://github.com/lifefindsitsway/amber-runtime-assets/releases/download/runtime-assets-2026.11.11/<文件名>
 ```
 
-Release 发布后不可变。`gh release verify runtime-assets-2026.10.21 --repo lifefindsitsway/amber-runtime-assets` 校验 GitHub 为该 Release 签发的证明，`gh release verify-asset runtime-assets-2026.10.21 <文件> --repo lifefindsitsway/amber-runtime-assets` 校验单个文件。它们只证明文件与发布时一致；文件与上游是否一致，以 `manifest.json` 中每个文件的上游校验记录（`upstreamChecksumRef`）为准。
+Release 发布后不可变。`gh release verify runtime-assets-2026.11.11 --repo lifefindsitsway/amber-runtime-assets` 校验 GitHub 为该 Release 签发的证明，`gh release verify-asset runtime-assets-2026.11.11 <文件> --repo lifefindsitsway/amber-runtime-assets` 校验单个文件。它们只证明文件与发布时一致；文件与上游是否一致，以 `manifest.json` 中每个文件的上游校验记录（`upstreamChecksumRef`）为准。
 
 在 Amber 仓库中使用下载好的目录：
 
@@ -44,7 +46,7 @@ pnpm pack:sidecar --assets runtime-assets
 
 许可证文本：
 
-- `runtime-licenses.zip`：运行时组件（Node.js、yt-dlp、Deno、FFmpeg、Noto Sans SC）的许可证与声明原文，含 FFmpeg 静态链接的 Rust 标准库的许可证。
+- `runtime-licenses.zip`：运行时组件（Node.js、yt-dlp、Deno、FFmpeg、Noto Sans SC、Noto Serif SC、霞鹜文楷轻便版）的许可证与声明原文，含 FFmpeg 静态链接的 Rust 标准库的许可证。
 - `third-party-licenses.tar.xz`：Windows x64 FFmpeg 构建的全部组件与运行时组件的许可证。
 - `third-party-licenses-linux64.tar.xz`：Linux x64 FFmpeg 构建额外使用的组件的许可证，以及 Implib.so（其 MIT 许可的桩代码模板链接进 Linux x64 构建）和两个构建静态链接的 Rust 标准库的许可证。
 
